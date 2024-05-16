@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+iframe {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  padding: 10px;
+}
+
+body {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+	background-image: linear-gradient(white, aqua);
+}
+
+body h1 {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 400%;
+}
+
+body ul {
+	text-align: left;
+	margin-left: 10%;
+}
+
+@keyframes buttonAnim{
+	from {
+		color: #ffffff;
+		background-color: #2d63c8;
+	}
+	to {
+		color: #2d63c8;
+		background-color: #ffffff;
+	}
+}
+
+button {
+	color: #ffffff;
+	background-color: #2d63c8;
+	font-size: 19px;
+	border: 1px solid #2d63c8;
+	padding: 15px 50px;
+	cursor: pointer;
+}
+
+button:hover {
+	color: #2d63c8;
+	background-color: #ffffff;
+	/*animation-name: buttonAnim;*/
+}
+
+a {
+	color: lime;
+}
